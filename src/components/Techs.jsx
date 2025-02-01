@@ -1,13 +1,13 @@
-import htmlicon from "@icons96/html-96.png"
-import cssicon from "@icons96/css-96.png"
-import javascript from "@icons96/javascript-96.png"
-import nodejs from "@icons96/nodejs-96.png"
-import reacticon from "@icons96/react-96.png"
-import viteicon from "@icons96/vite-96.png"
-import mongodbicon from "@icons96/mongo-db-96.png"
-import sassicon from "@icons96/sass-96.png"
-import trello from "@icons96/trello-96.png"
-import github from "@icons96/github-96.png"
+import htmlicon from "../assets/icons/96px/html-96.png"
+import cssicon from "../assets/icons/96px/css-96.png"
+import javascript from "../assets/icons/96px/javascript-96.png"
+import nodejs from "../assets/icons/96px/nodejs-96.png"
+import reacticon from "../assets/icons/96px/react-96.png"
+import viteicon from "../assets/icons/96px/vite-96.png"
+import mongodbicon from "../assets/icons/96px/mongo-db-96.png"
+import sassicon from "../assets/icons/96px/sass-96.png"
+import trello from "../assets/icons/96px/trello-96.png"
+import github from "../assets/icons/96px/github-96.png"
 
 function Techs() {
     return(

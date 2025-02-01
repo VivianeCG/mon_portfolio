@@ -1,5 +1,5 @@
-import data from '@json/projects.json';
-import Card from '@layout/Card.jsx';
+import data from '../assets/jsonfiles/projects.json';
+import Card from './Card';
 
 function Projects() {
         // Trier les projets par ordre décroissant de l'id

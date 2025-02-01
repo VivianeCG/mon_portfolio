@@ -1,4 +1,4 @@
-import copy from "@icons32/copy-32.png"
+import copy from "../assets/icons/32px/copy-32.png"
 
 function Contactform() {
     return(

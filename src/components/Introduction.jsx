@@ -1,5 +1,5 @@
-import photo from "@photos/portrait.webp"
-import data from "@json/introduction.json"
+import photo from "../assets/photos/portrait.webp";
+import data from "../assets/jsonfiles/introduction.json";
 
 function Introduction() {
     return(

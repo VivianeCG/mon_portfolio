@@ -1,4 +1,4 @@
-import data from "@json/skills.json"
+import data from "../assets/jsonfiles/skills.json";
 
 function Skills() {
     return(
