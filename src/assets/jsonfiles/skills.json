@@ -1,0 +1,10 @@
+[
+    {
+        "id": "1",
+        "content": "Création de sites web modernes, responsives et dynamiques avec React et JavaScript. Intégration de maquette avec le HTML et le CSS. Respect des normes du W3C et du \"clean code\". Suivi de projet avec des outils de gestion de projet et de versionnage."
+    },
+    {
+        "id": "2",
+        "content": "Optimisation des performances d'un site. Amélioration du SEO et prise en compte de l'accessibilité. Stockage de données de manière sécurisée avec un base de données NoSQL."
+    }
+]
