@@ -9,12 +9,8 @@ function Home() {
     return (
         <>
         <Header/>
-        <main>
-            <Introduction/>
-            <Skills/>
-            <Techs/>
-            <Projects/>
-            <Contactform/>
+        <main className="main-container">
+
         </main>
         </>
     )

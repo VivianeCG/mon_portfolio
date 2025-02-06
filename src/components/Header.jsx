@@ -8,10 +8,10 @@ import githublogo from "../assets/icons/32px/github-32.png"
 
 function Header() {
     return(
-        <header>
+        <header className="header">
             <Navbar/>
             <Banner src={photo}>
-                <figcaption>
+                <figcaption className="banner-figcaption">
                     <h1>Viviane CHENET développeuse web à BREST </h1>
                     <div className="header-logos"><img src={linkedin} alt="logo et lien vers LinkedIn" /><img src={githublogo} alt="logo et lien vers github" /></div>
                 </figcaption>
