@@ -10,11 +10,11 @@ function Home() {
         <>
         <Header/>
         <main className="main-container">
-
+        <Introduction/>
+        <Skills/>
+        <Techs/>
         </main>
         </>
-    )
-    
-}
-
+            )
+};
 export default Home;

@@ -11,11 +11,11 @@
   --third-color:#529EEB;
 }
 body {
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  margin: auto;
   min-width: 320px;
   max-width: 1440px;
 }
@@ -35,8 +35,8 @@ a {
   background-color: var(--second-color);
 }
 h2{
-  font-size: 2.442em;
   margin-top: 0;
+  font-size: 2.442em;
 }
 
 /********* Navbar *********/
@@ -52,8 +52,8 @@ h2{
 }
 .navbar a:hover{
 
-  border-bottom: 2px solid var(--third-color);
   padding-bottom: 2px;
+  border-bottom: 2px solid var(--third-color);
 }
 .navbar li{
   font-size: 1em;
@@ -87,7 +87,6 @@ h2{
 .banner-figcaption{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   position: absolute;
   max-height: 76%;
   width: 78%;
@@ -102,7 +101,65 @@ h1{
   margin: 0;
 }
 .header-logos{
+  display: flex;
+  justify-content: center;
   gap: 5%;
+}
+/********** Section présentation ***********/
+#introduction {
+  display: flex;
+  align-items: flex-start; 
+  gap: 3%; 
+  margin: 3.25%;
+}
+
+#introduction figure {
+  flex-shrink: 0; 
+  margin: 0 0 2% 0;
+}
+
+#introduction img {
+  max-width: 192px;
+  height: auto;
+  border-radius: 15px;
+}
+
+#introduction .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introduction h2 {
+  margin: -2% 0 0 0; 
+}
+
+#introduction article {
+  max-width: 960px; 
+}
+.introduction-text{
+  padding-left: 3.56%;
+  padding-right: 3.56%;
+}
+/*********** Sections  **************/
+#skills, #techs, #projects, #contact {
+  padding: 2.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*********** Section Compétences **************/
+.skills{
+  width: 88%;
+}
+/*********** Section Technologies *************/
+.techs-content {
+  display: flex;
+  gap: 3%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.techs-content article p{
   display: flex;
   justify-content: center;
 }
