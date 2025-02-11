@@ -10,9 +10,11 @@ function Home() {
         <>
         <Header/>
         <main className="main-container">
-        <Introduction/>
-        <Skills/>
-        <Techs/>
+            <Introduction/>
+            <Skills/>
+            <Techs/>
+            <Projects/>
+
         </main>
         </>
             )

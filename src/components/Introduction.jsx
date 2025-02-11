@@ -1,19 +1,19 @@
-import photo from "../assets/photos/portrait.webp";
+import photo from "../assets/photos/portrait_1.jpeg";
 import data from "../assets/jsonfiles/introduction.json";
 
 function Introduction() {
     return(
         <section id="introduction">
-            <figure>
-                <img src={photo} alt="portrait de Viviane"/>
-            </figure>
+            <h2>Présentation</h2>
             <div className="content">
-                <h2>Présentation</h2>
-                    <article>
-                        {data.map((item, id)=> (
-                            <p key={id} className="introduction-text">{item.content}</p>
-                        ))}
-                    </article>
+                <figure>
+                    <img src={photo} alt="portrait de Viviane"/>
+                </figure>
+                        <article>
+                            {data.map((item, id)=> (
+                                <p key={id} className="introduction-text">{item.content}</p>
+                            ))}
+                        </article>
             </div>
         </section>
     )

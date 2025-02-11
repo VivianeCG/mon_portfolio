@@ -13,7 +13,7 @@ function Projects() {
                     key={projects.id}
                     src={projects.src}
                     alt={projects.alt}>
-                    <h3>{projects.title}</h3>
+                    <h3 className='card-title'>{projects.title}</h3>
                     </Card>
                 ))}
             </div>

@@ -2,9 +2,9 @@
 function Card({src, alt, children}) {
     return(
             <>
-                <article>
-                    <figure>
-                    <img src={src} alt={alt} />
+                <article className="card-wrapper"> 
+                    <figure className="card">
+                    <img src={src} alt={alt} className="card-image"/>
                     {children}
                     </figure>
                 </article>
