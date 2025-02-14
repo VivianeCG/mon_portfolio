@@ -14,7 +14,7 @@ function Home() {
             <Skills/>
             <Techs/>
             <Projects/>
-
+            <Contactform/>
         </main>
         </>
             )

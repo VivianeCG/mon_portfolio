@@ -110,7 +110,7 @@ h1{
 #introduction {
   display: flex;
   flex-direction: column;
-  margin: 3.25%;
+  padding: 4%;
 }
 
 #introduction figure {
@@ -141,7 +141,7 @@ h1{
 }
 /********* Sections  *********/
 #skills, #techs, #projects, #contact {
-  padding: 2.6em;
+  padding: 4%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,6 +191,35 @@ h1{
   align-items: center;
 }
 
+/********* Sections Contact *********/
+
+.contact-elements {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+
+.copy-mail, .mailto {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  background-color: var(--third-color);
+  border-radius: 6px;
+  margin-bottom: 5%;
+}
+
+.mailto-link {
+text-decoration: underline;
+}
+
+.copy-mail{
+  width: 90%
+}
+
+.copy-mail-button{
+  margin-left: 4%;
+}
 /********* Footer *********/
 
 
