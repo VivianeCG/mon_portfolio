@@ -19,11 +19,11 @@ function Techs() {
                 <article><p>JavaScript</p><img src={javascript} alt="logo JavaScript" /></article>
                 <article><p>NodeJs</p><img src={nodejs} alt="logo NodeJs" /></article>
                 <article><p>React</p><img src={reacticon} alt="logo React" /></article>
+                <article><p>Sass</p><img src={sassicon} alt="logo Sass" /></article>
+                <article><p>GitHub</p><img src={github} alt="logo GitHub" /></article>    
                 <article><p>Vite</p><img src={viteicon} alt="logo Vite" /></article>
                 <article><p>MongoDb</p><img src={mongodbicon} alt="logo MongoDb" /></article>
-                <article><p>Sass</p><img src={sassicon} alt="logo Sass" /></article>
                 <article><p>Trello</p><img src={trello} alt="logo Trello" /></article>
-                <article><p>GitHub</p><img src={github} alt="logo GitHub" /></article>    
             </div>
         </section>
     )

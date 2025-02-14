@@ -8,14 +8,24 @@ function Projects() {
         <section id="projects">
             <h2>Réalisations</h2>
             <div className='projects-cards'>
-                {sortedData.map((projects) =>(
+                {sortedData.map((projects) => {
+                    let imageSrc;
+                    try {
+                        imageSrc = require(`../assets/projectsphotos/${projects.src}`);
+                    } catch (error) {
+                        console.error(`Image non trouvée : ${projects.src}`, error);
+                        imageSrc = '';
+                    }
+                
+                return (
                     <Card
                     key={projects.id}
-                    src={projects.src}
+                    src={imageSrc}
                     alt={projects.alt}>
                     <h3 className='card-title'>{projects.title}</h3>
                     </Card>
-                ))}
+                );
+                })}
             </div>
         </section>
     )

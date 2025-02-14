@@ -140,7 +140,7 @@ h1{
   padding-right: 3.56%;
 }
 /********* Sections  *********/
-#skills, #techs, #projects, #contact {
+#skills, #techs, #projects, #contact, footer {
   padding: 4%;
   display: flex;
   flex-direction: column;
@@ -221,7 +221,15 @@ text-decoration: underline;
   margin-left: 4%;
 }
 /********* Footer *********/
-
+footer{
+  padding: 1%;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12%;
+}
 
 /********* Page mentions légales *********/
 

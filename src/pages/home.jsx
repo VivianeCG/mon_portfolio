@@ -8,14 +8,14 @@ import Techs from "../components/Techs.jsx";
 function Home() {
     return (
         <>
-        <Header/>
-        <main className="main-container">
-            <Introduction/>
-            <Skills/>
-            <Techs/>
-            <Projects/>
-            <Contactform/>
-        </main>
+            <Header/>
+            <main className="main-container">
+                <Introduction/>
+                <Skills/>
+                <Techs/>
+                <Projects/>
+                <Contactform/>
+            </main>
         </>
             )
 };

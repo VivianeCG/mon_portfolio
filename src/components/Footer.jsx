@@ -7,12 +7,12 @@ import { Link } from "react-router-dom"
 function Footer({src}) {
     return(
        <footer>
-        <p className="footer-content">
-            Made with React <img src={reactLogo} alt="logo React"></img>.<br/>
-            © Chenet Viviane - 2025.<br/>
-            <a href="mailto:chenet.viviane@gmail.com"><img src={email} alt="lien pour envoyer un e-mail" /></a><img src={linkedin} alt="logo LinkedIn" /><img src={github} alt="logo GitHub" /><br/>
-            <Link to='/mentionslegales'>Mentions légales</Link>
-        </p>
+        <section >
+            <p className="footer-content"><span>Made with React</span><img src={reactLogo} alt="logo React"></img></p>
+            <p className="footer-content"><a href="mailto:chenet.viviane@gmail.com"><img src={email} alt="lien pour envoyer un e-mail" /></a><img src={linkedin} alt="logo LinkedIn" /><img src={github} alt="logo GitHub" /></p>
+            <p className="footer-content"><Link to='/mentionslegales'>Mentions légales</Link></p>
+            <p className="footer-content">© Chenet Viviane - 2025.</p>
+        </section>
        </footer>
     )
 }
