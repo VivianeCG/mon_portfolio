@@ -8,9 +8,7 @@ function Footer({src}) {
     return(
        <footer>
         <section >
-            <p className="footer-content"><span>Made with React</span><img src={reactLogo} alt="logo React"></img></p>
-            <p className="footer-content"><Link to='/mentionslegales'>Mentions légales</Link></p>
-            <p className="footer-content">© Chenet Viviane - 2025.</p>
+            <p className="footer-content"><span>Made with React</span>© Chenet Viviane - 2025.<Link to='/mentionslegales'>Mentions légales</Link></p>
         </section>
        </footer>
     )
