@@ -231,26 +231,45 @@ text-decoration: underline;
 }
 
 /********* Page mentions légales *********/
-
-
+.ml-header, .ml-subtitles{
+  margin-left: 4%;
+}
+.ml-header{
+  padding-top: 2%;
+}
+.ml-title{
+  display: flex;
+  justify-content: center;
+}
+.ml-subtitles {
+  font-size: xx-large;
+}
+.ml-text{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 6%;
+}
 /********* Media Queries *********/
 @media screen and (min-width:320px) and (max-width: 1024px){
-  /*.open-menu-header{
+  .responsive-menu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .open-menu-header{
     display: flex;
     flex-flow: row-reverse;
-  }*/
- /* .open-navbar{
+  }
+ .open-navbar{
     display: flex;
     justify-content: end;
     position: absolute;
     z-index: 1;
     width: 170px;
-  }*/
+  }
   .burger-icon-button{
     display: flex;
     background-color: transparent;
     border: none;
-    justify-self: flex-end;
   }
   .burger-icon{
     max-width: 32px;
@@ -294,7 +313,7 @@ text-decoration: underline;
   h1{
     font-size: large;
   }
-  h2{
+  h2, .ml-subtitles{
     font-size: large;
   }
   p{
@@ -326,5 +345,8 @@ text-decoration: underline;
   }
   .copy-icon{
     display: none;
+  }
+  .ml-header, .ml-title{
+    margin-bottom: 5%;
   }
 }
