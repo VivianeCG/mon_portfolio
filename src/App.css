@@ -61,7 +61,7 @@ h2{
   height: 35px;
   box-sizing: border-box;
 }
-.burger-icon, .cross-icon{
+.burger-icon-button, .cross-icon-open-menu-button{
   display: none;
 }
   
@@ -235,38 +235,45 @@ text-decoration: underline;
 
 /********* Media Queries *********/
 @media screen and (min-width:320px) and (max-width: 1024px){
-  .open-menu-header{
+  /*.open-menu-header{
     display: flex;
     flex-flow: row-reverse;
-  }
-  .open-navbar{
+  }*/
+ /* .open-navbar{
     display: flex;
     justify-content: end;
     position: absolute;
     z-index: 1;
     width: 170px;
+  }*/
+  .burger-icon-button{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    justify-self: flex-end;
   }
   .burger-icon{
-    display: flex;
-    justify-self: end;
-    padding: 4%;
     max-width: 32px;
   }
-  .closed-navbar.navbar ul li{
+  .navbar ul li{
     display: none;
   }
   .cross-icon-open-menu{
+    display: none;
+  }
+  /*.cross-icon-open-menu{
     display: flex;
     justify-self: end;
     padding: 4%;
     max-width: 32px;
-  }
-  .open-ul, .navbar ul{
+  }*/
+   .navbar ul{
     flex-direction: column;
     align-items: end;
     padding-right: 8%;
     width: 161px;
     box-sizing: border-box;
+    display: none;
   }
 }
 @media screen and (min-width:767px) and (max-width: 1024px){
@@ -304,7 +311,7 @@ text-decoration: underline;
     font-size: medium;
   }
   .contact-elements{
-    min-width: 320px;
+    min-width: 319px;
     align-items: center;
   }
   .copy-mail{

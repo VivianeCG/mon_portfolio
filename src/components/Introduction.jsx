@@ -1,4 +1,4 @@
-import photo from "../assets/photos/portrait_1.jpeg";
+import photo from "../assets/photos/portrait.webp";
 import data from "../assets/jsonfiles/introduction.json";
 
 function Introduction() {

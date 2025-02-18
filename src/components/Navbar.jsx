@@ -6,16 +6,16 @@ function Navbar() {
     return(
         <nav className="navbar ">
             <div className="responsive-menu">
-                <img src={burger} alt="accès au menu" className="burger-icon" id="burger"/>
-                <img src={cross} alt="fermer le menu" className="cross-icon-open-menu" id="cross"/>
-            <ul>
-                <li className="menu-item"><Link to='/'>Viviane Chenet</Link></li>
-                <li className="menu-item"><a href="#introduction">Présentation</a></li>
-                <li className="menu-item"><a href="#skills">Compétences</a></li>
-                <li className="menu-item"><a href="#techs">Technologies</a></li>
-                <li className="menu-item"><a href="#projects">Réalisations</a></li>
-                <li className="menu-item"><a href="#contact">Contact</a></li>
-            </ul>
+                <button className="burger-icon-button"><img src={burger} alt="accès au menu" className="burger-icon" id="burger"/></button>
+                <button className="cross-icon-open-menu-button"><img src={cross} alt="fermer le menu" className="cross-icon-open-menu" id="cross"/></button>
+                <ul>
+                    <li className="menu-item"><Link to='/'>Viviane Chenet</Link></li>
+                    <li className="menu-item"><a href="#introduction">Présentation</a></li>
+                    <li className="menu-item"><a href="#skills">Compétences</a></li>
+                    <li className="menu-item"><a href="#techs">Technologies</a></li>
+                    <li className="menu-item"><a href="#projects">Réalisations</a></li>
+                    <li className="menu-item"><a href="#contact">Contact</a></li>
+                </ul>
             </div>
         </nav>
     )

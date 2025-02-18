@@ -9,7 +9,7 @@ import githublogo from "../assets/icons/32px/github-32.png"
 function Header() {
     return(
         <header className="header">
-
+            <Navbar/>
             <Banner src={photo}>
                 <figcaption className="banner-figcaption">
                     <h1>Viviane CHENET développeuse web à BREST </h1>
