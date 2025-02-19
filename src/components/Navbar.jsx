@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <div className="responsive-menu">
-                {/* Bouton Burger toujours visible */}
+                {/* Bouton Burger, toujours visible en responsive */}
                 <button className="burger-icon-button" onClick={toggleMenu}>
                     <img 
                         src={isMenuOpen ? cross : burger} 
