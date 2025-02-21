@@ -13,7 +13,7 @@ function Header() {
             <Banner src={photo}>
                 <figcaption className="banner-figcaption">
                     <h1>Viviane CHENET développeuse web à BREST </h1>
-                    <div className="header-logos"><a href="https://www.linkedin.com/in/chenet-viviane"><img src={linkedin} alt="logo et lien vers LinkedIn" /></a><a href="https://github.com/VivianeCG"><img src={githublogo} alt="logo et lien vers github" /></a></div>
+                    <div className="header-logos"><a href="https://www.linkedin.com/in/chenet-viviane" target="_blank"><img src={linkedin} alt="logo et lien vers LinkedIn" /></a><a href="https://github.com/VivianeCG" target="_blank"><img src={githublogo} alt="logo et lien vers github" /></a></div>
                 </figcaption>
             </Banner>
 

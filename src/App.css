@@ -171,6 +171,7 @@ h1{
   width: 295px;
   height: 195px;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 .card{
   margin: 0;
