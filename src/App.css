@@ -270,6 +270,10 @@ text-decoration: underline;
 .ml-title{
   justify-content: center;
 }
+.ml-content{
+  margin-right: 10%;
+}
+
 .ml-subtitles {
   font-size: xx-large;
 }
