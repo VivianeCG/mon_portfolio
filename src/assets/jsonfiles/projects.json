@@ -4,7 +4,7 @@
         "title": "Projet Booki",
         "src": "booki.webp",
         "alt": "image du projet Booki",
-        "description": "Intégration de la maquette de la page d'accueil d'un site permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Implémenter une interface responsive. Je n'ai pas rencontré de grosses difficultés sur le projet à part la découverte de Git et GitHub et de VSCode. Technologies utilisées: HTML, CSS, Git, GitHub, validateurs de code." ,
+        "description": "Intégration de la maquette de la page d'accueil d'un site permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Implémenter une interface responsive. Technologies utilisées: HTML, CSS, Git, GitHub, validateurs de code." ,
         "github": "https://github.com/VivianeCG/P2_Booki.git"
     },
     {
@@ -12,7 +12,7 @@
         "title": "Projet Sophie Bluel",
         "src": "bluel.webp",
         "alt": "image du projet Sophie Bluel",
-        "description": "Conception du portfolio d'une architecte d'intérieur avec page de présentation des travaux, de connexion de l'administrateur et modale pour uploader les nouveaux médias. Utilisation de JavaScript pour récupérer des données dans un formulaire, gérer des événements utlisateur et manipuler le DOM. J'ai eu des difficultés comprendre l'utilisation de javascript. Technologie utilisée: Javascript.",
+        "description": "Conception du portfolio d'une architecte d'intérieur avec page de présentation des travaux, de connexion de l'administrateur et modale pour uploader les nouveaux médias. Utilisation de JavaScript pour récupérer des données dans un formulaire, gérer des événements utlisateur et manipuler le DOM. Technologie utilisée: Javascript.",
         "github": "https://github.com/VivianeCG/P3_Bluel.git"
     },
     {
@@ -20,7 +20,7 @@
         "title": "Projet Nica Carducci",
         "src": "carducci.webp",
         "alt": "image du projet Nina Carducci",
-        "description": "Optimisation des performances et débuggage du site, rédaction d'un cahier de recette pour tester le site. Optimisation du référencement (SEO) et amélioration de l'accessibilité du site. J'ai eu quelques difficultés à appréhender les ChromeDevTools. Technologies utilisées: ChromeDevTools, Google Rich Snippet, Lighthouse, Wave." ,
+        "description": "Optimisation des performances et débuggage du site, rédaction d'un cahier de recette pour tester le site. Optimisation du référencement (SEO) et amélioration de l'accessibilité du site. Technologies utilisées: ChromeDevTools, Google Rich Snippet, Lighthouse, Wave." ,
         "github": "https://github.com/VivianeCG/P5_Carducci.git"
     },
     {
@@ -28,7 +28,7 @@
         "title": "Projet Kasa",
         "src": "kasa.webp",
         "alt": "image du projet Kasa",
-        "description": "Refonte d'un site de location de logements en utilisant React pour la partie front-end ainsi que React-router et Sass, mise en oeuvre d'animations CSS. J'ai eu quelques difficultés à mettre en route Create React App, moins avec React en lui-même et Sass. Technologies utilisées: React, Create React App, Sass." ,
+        "description": "Refonte d'un site de location de logements en utilisant React pour la partie front-end ainsi que React-router et Sass, mise en oeuvre d'animations CSS. Technologies utilisées: React, Create React App, Sass." ,
         "github": "https://github.com/VivianeCG/P6_kasa.git"
     },
     {
@@ -36,7 +36,7 @@
         "title": "Mon vieux grimoire",
         "src": "vieux-grimoire.webp",
         "alt": "image du projet Mon vieux Grimoire",
-        "description": "Mise en place du backend d'un site qui permet aux membres d'ajouter un livre et de mettre une note visible par le public. Optimisation des images. Implémenter un modèle logique de données, mettre en oeuvre le CRUD et stocker des données de manière sécurisée. La seule véritable difficulté rencontrée était dûe à un bug de mon ordinateur, et à l'apprentissage de MongoDB. Technologies utilisées: Node.js, MongoDB, Express." ,
+        "description": "Mise en place du backend d'un site qui permet aux membres d'ajouter un livre et de mettre une note visible par le public. Optimisation des images. Implémenter un modèle logique de données, mettre en oeuvre le CRUD et stocker des données de manière sécurisée. Technologies utilisées: Node.js, MongoDB, Express." ,
         "github": "https://github.com/VivianeCG/P7_Mon_Vieux_Grimoire.git"
     }
 ]
